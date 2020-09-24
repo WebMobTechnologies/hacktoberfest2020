@@ -28,9 +28,7 @@ const redirectMap = () => {
   window.open("https://goo.gl/maps/3pV3bHpLV8owx4ER8")
 }
 
-
-const IndexPage = (props) => (
-
+const IndexPage = props => (
   <Layout>
     <SEO title="Hacktoberfest Open Hack Day - WebMob Technologies" />
     <Container>
@@ -53,7 +51,7 @@ const IndexPage = (props) => (
           >
             <h1 className="title register">
               Hacktoberfest Open Hack Day{" "}
-              <span style={{ color: "#fff922", display: "block" }}>
+              <span style={{ color: "#9c4668", display: "block" }}>
                 WebMob Technologies!
               </span>
             </h1>
@@ -93,7 +91,7 @@ const IndexPage = (props) => (
 
     <div className="mt-5" style={{ overflow: "hidden" }}>
       <div style={{ paddingTop: "10rem" }}>
-        <Row style={{ alignItems: "center", backgroundColor: "#152347" }}>
+        <Row style={{ alignItems: "center", backgroundColor: "#072540" }}>
           <Col sm={12} md={12} lg={6}>
             <EventMap />
           </Col>
@@ -123,7 +121,7 @@ const IndexPage = (props) => (
             <Col xs={12}>
               <Line />
               <h2 className="title is-2 is-spaced"> Have a Riot</h2>
-              <HappyMoment data={props.data.allFile.edges}/>
+              <HappyMoment data={props.data.allFile.edges} />
             </Col>
           </Row>
         </Container>
@@ -139,7 +137,8 @@ const IndexPage = (props) => (
 
               <div className="social-link">
                 <a
-                  className="grow-shadow social"
+                  className="grow-shadow social left-gradiant"
+                  style={{ borderRadius: "0px 0px 0px 50px" }}
                   href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.webmobtech.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -160,7 +159,8 @@ const IndexPage = (props) => (
                 </a>
 
                 <a
-                  className="grow-shadow social"
+                  className="grow-shadow social right-gradiant"
+                  style={{ borderRadius: "0px 50px 0px 0px " }}
                   href="https://ctt.ac/4xLO9"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -183,9 +183,9 @@ const IndexPage = (props) => (
               </div>
             </Col>
             <Col sm={6}>
-              <div style={{ paddingTop: "5rem" }}>
+              {/* <div style={{ paddingTop: "5rem" }}>
                 <Image />
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>
@@ -206,7 +206,7 @@ const IndexPage = (props) => (
           <img className="dev-logo" src={Devlogo} alt="Dev Logo" />
         </a>
       </div>
-      <p>© 2019 DigitalOcean, LLC. All rights reserved.</p>
+      <p>© 2020 DigitalOcean, LLC. All rights reserved.</p>
       <div className="socials">
         <ul>
           <li>
@@ -253,23 +253,24 @@ const IndexPage = (props) => (
 
 export default IndexPage
 
-export const query = graphql `
-query
-  query {
-allFile(
-filter: {
-extension: { regex: "/(jpg)|(png)|(webp)|(jpeg)/" }
-relativeDirectory: { eq: "moments" }
-}
-) {
-edges {
-node {
-relativePath
-childImageSharp {
-fluid(quality: 100,) {
-...GatsbyImageSharpFluid
-}
-}
-}
-}
-}}`
+export const query = graphql`
+  query query {
+    allFile(
+      filter: {
+        extension: { regex: "/(jpg)|(png)|(webp)|(jpeg)/" }
+        relativeDirectory: { eq: "moments" }
+      }
+    ) {
+      edges {
+        node {
+          relativePath
+          childImageSharp {
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`

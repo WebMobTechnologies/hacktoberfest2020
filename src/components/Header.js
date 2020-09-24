@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import Logo from '../../static/images/header-logo.svg'
+import Logo from '../../static/images/Logo Sponsors Light.svg'
 
 const Header = ({ siteTitle }) => 
 <header>

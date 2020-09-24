@@ -6,7 +6,7 @@ const EventDetail = () => (
     <Line />
     <h2 className="title is-2 is-spaced">Event details</h2>
     <p className="p">
-      It's Hacktoberfest 2019! Let's celebrate open source over food, drinks,
+      It's Hacktoberfest 2020! Let's celebrate open source over food, drinks,
       learning, and great company!
     </p>
     <p className="p">

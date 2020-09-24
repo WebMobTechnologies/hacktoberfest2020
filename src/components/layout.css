@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap");
 
 html {
-  background-color: #152347;
+  background-color: #072540;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -13,7 +13,7 @@ html {
 }
 
 .cookie-content {
-  background-color: rgb(3, 27, 78) !important;
+  background-color: #031b4e !important;
   transition: opacity 1s ease-in-out !important;
   padding: 20px 10% !important;
   font-size: 14px !important;
@@ -32,7 +32,7 @@ html {
 }
 
 .break {
-  background-color: rgba(161, 30, 198, 0.2);
+  background-color: #9c4668;
   color: #fff;
 }
 
@@ -50,13 +50,14 @@ html {
 }
 
 a {
-  color: #92eaff;
+  color: #ff8ae2;
+  font-weight: bolder;
   cursor: pointer;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff00aa;
+  color: #fff;
 }
 
 strong {
@@ -73,17 +74,22 @@ strong {
   border: none;
   width: 170px;
   height: 150px;
-  background: #a31ec8;
+  /* background: #a31ec8; */
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   display: inline-block;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: 15px;
   text-align: left;
   vertical-align: top;
   padding: 30px;
   text-decoration: none;
 }
-
+.left-gradiant{
+  background-image: linear-gradient(to right,#9c4668 , #d66cbc);
+}
+.right-gradiant{
+  background-image: linear-gradient(to right ,#d66cbc , #ff8ae2);
+}
 @media screen and (max-width: 1024px) {
   .social-link {
     align-items: center;
@@ -152,7 +158,7 @@ strong {
 }
 
 .spread {
-  background-image: url(/images/bg2.png), url(/images/bg1.png);
+  /* background-image: url(/images/bg2.png), url(/images/bg1.png); */
   background-position: bottom left, top right;
   background-repeat: no-repeat;
   min-height: 1040px;
@@ -168,7 +174,7 @@ textarea {
 
 body {
   font-family: "Space Mono", monospace;
-  color: #99a1b3;
+  color: #93c2db;
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
@@ -585,13 +591,13 @@ dd {
 
 .bullet {
   list-style-type: disc;
-  color: #fff922;
+  color: #ff8ae2;
   margin-bottom: 30px;
   margin-left: 20px;
 }
 
 .color-yellow {
-  color: #fff922;
+  color: #ff8ae2;
 }
 
 .p {
@@ -605,7 +611,7 @@ dd {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: #99a1b3;
+  color: #93c2db;
 }
 
 figure {
@@ -889,18 +895,18 @@ pre tt:after {
 }
 
 .line-br span {
-  background-color: #fff922;
+  background-color: #ff8ae2;
 }
 
 .line-br {
-  color: #fff922;
+  color: #ff8ae2;
   line-height: 0.4rem;
   position: relative;
   margin-bottom: 10px;
 }
 
 .line-br-1 {
-  width: 40px;
+  width: 90px;
   height: 6px;
   position: absolute;
 }
@@ -909,7 +915,7 @@ pre tt:after {
   width: 10px;
   height: 6px;
   position: absolute;
-  left: 50px;
+  left: 100px;
 }
 
 .is-spaced {
@@ -917,8 +923,9 @@ pre tt:after {
 }
 
 .register-btn {
-  background-color: #a11ec6;
-  border-color: #a11ec6;
+  background-image: linear-gradient(to right ,#9c4668 , #ff8ae2);
+  /* background-color: #2d67cf; */
+  /* border-color: #2d67cf; */
   border-width: 0;
   color: white;
   cursor: pointer;
@@ -930,6 +937,7 @@ pre tt:after {
   text-align: center;
   white-space: nowrap;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 /* header slider section */
@@ -955,14 +963,14 @@ main.sliderimg {
   max-width: 620px;
 }
 .top-bg::after {
-  content: url(/images/bg-right.png);
+  /* content: url(/images/bg-right.png); */
   position: absolute;
   top: 0px;
   right: 0;
   z-index: -1;
 }
 .top-bg::before {
-  content: url(/images/bg-left.png);
+  /* content: url(/images/bg-left.png); */
   position: absolute;
   top: 0px;
   z-index: -1;
@@ -978,8 +986,8 @@ header {
   line-height: 60px;
 }
 .button:hover {
-  background-color: #92eaff;
-  color: #39486f;
+  background-image: linear-gradient(to right ,#bb5e83 , #bb5e83);
+  color: #fff;
 }
 
 .overflow-break {
@@ -1042,7 +1050,7 @@ header li {
   list-style-type: none;
 }
 header li a:hover {
-  border-bottom: 2px solid #fff922;
+  border-bottom: 2px solid #ff8ae2;
 }
 header a.navLink {
   margin-left: 1.875rem;
@@ -1120,45 +1128,46 @@ table.event-schedule td {
   margin-bottom: 15px;
   min-height: 180px !important;
 }
-.box-projects{
+.box-projects {
   position: relative;
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 80px 1fr;
   width: 100%;
-  background-color: #1d2c4e;
+  background-color: #183e5d;
   padding: 1.25rem;
-  box-shadow: 0px 50px 100px rgba(0,0,0,0.2);
-  -webkit-transition: all 0.4s cubic-bezier(0.165,0.84,0.44,1);
-  transition: all 0.4s cubic-bezier(0.165,0.84,0.44,1);
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* border-radius: 50px 0px 50px 0px; */
   height: 100%;
 }
-.box-projects .title-wrap{
+.box-projects .title-wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: white;
 }
-.box-projects span.details-number{
+.box-projects span.details-number {
   color: white;
-  background: #152347;
+  background: #072540;
   padding: 2px;
   margin-right: 5px;
 }
-.box-projects .details-wrap p.details{
+.box-projects .details-wrap p.details {
   margin: 0;
 }
-.box-projects .img-desc{
+.box-projects .img-desc {
   max-width: 80px;
   display: flex;
 }
-.box-projects .img-desc img{
+.box-projects .img-desc img {
   display: block;
   border-radius: 50%;
   width: 80px;
   height: 80px;
 }
-.box-projects .title-social{
+.box-projects .title-social {
   display: flex;
   flex-direction: column;
   -webkit-box-pack: start;
@@ -1168,7 +1177,7 @@ table.event-schedule td {
   text-align: left;
   font-size: 14px;
 }
-.box-projects .title{
+.box-projects .title {
   display: flex;
   flex-direction: row;
   -webkit-box-pack: justify;
@@ -1177,17 +1186,22 @@ table.event-schedule td {
   justify-content: space-between;
   color: white;
 }
-.box-projects .title h3{
+.box-projects .title h3 {
   margin-bottom: 0px;
 }
-.box-projects .svg-inline--fa{
+.box-projects .svg-inline--fa {
   margin-right: 10px;
 }
-.box-projects .description{
+.box-projects .description {
   margin-top: 15px;
 }
-.box-projects .description a{
+.box-projects .description a {
   display: block;
+  color: #93c2db;
+}
+.box-projects .description a:hover {
+  display: block;
+  color: #ff8ae2;
 }
 @media screen and (max-width: 1023px) {
   .wmt_white_logo {
