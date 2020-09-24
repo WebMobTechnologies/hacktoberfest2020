@@ -83,7 +83,6 @@ strong {
   vertical-align: top;
   padding: 30px;
   text-decoration: none;
-}
 .left-gradiant{
   background-image: linear-gradient(to right,#9c4668 , #d66cbc);
 }
@@ -111,8 +110,8 @@ strong {
 }
 
 .social:hover {
-  background-color: #94eaff;
-  color: #39486f;
+  background-color: #173d5b;
+  color: #173d5b;
 }
 
 .social span {
@@ -125,7 +124,7 @@ strong {
 }
 
 .social:hover svg path {
-  fill: #39486f;
+  fill: #173d5b;
 }
 
 .grow-shadow {
@@ -146,7 +145,7 @@ strong {
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); */
   opacity: 0;
   -webkit-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
