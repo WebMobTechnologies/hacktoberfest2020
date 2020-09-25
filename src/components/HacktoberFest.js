@@ -23,7 +23,7 @@ const HacktoberFest = () => (
     <p className="p">
       This year, <a href="https://webmobtech.com" target="_blank" rel="noopener noreferrer">WebMob Technologies</a> will
       hold the second official Hacktoberfest event in Ahmedabad.{" "}
-      <strong>The event takes place on October 16.</strong>
+      <strong>The event takes place on October 10.</strong>
     </p>
 
     <p className="p">
