@@ -10,7 +10,7 @@ module.exports = {
     ogLanguage: 'en_US',
 
     // JSONLD / Manifest
-    favicon: 'static/images/favicon.png',
+    favicon: 'static/images/Icon.png',
     shortName: 'Hacktoberfest',
     author: 'WebMob Technologies',
     themeColor: '#152347',

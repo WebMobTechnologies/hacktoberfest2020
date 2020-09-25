@@ -78,8 +78,12 @@ const ScheduleEvent = () => (
       <tbody>
         {agenda.map(i => (
           <tr className={i.type}>
-            <td className="time">{i.time}</td>
-            <td className="desc">{i.desc}</td>
+            <td className="time">
+              {i.time}
+            </td>
+            <td className="desc">
+              {i.desc}
+            </td>
           </tr>
         ))}
       </tbody>

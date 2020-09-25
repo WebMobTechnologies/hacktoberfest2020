@@ -56,8 +56,8 @@ const IndexPage = props => (
               </span>
             </h1>
             <a
-              href="http://bit.ly/2MsOmvL"
-              target="_blank"
+              href="#"
+              // target="_blank"
               rel="noopener noreferrer"
             >
               <button className="register-btn button">Register</button>

@@ -2,7 +2,7 @@
 [Register](http://bit.ly/2MsOmvL)
 
 ## Event details
-It's Hacktoberfest 2019! Let's celebrate open source over food, drinks, learning, and great company!
+It's Hacktoberfest 2020! Let's celebrate open source over food, drinks, learning, and great company!
 
 The event will feature lectures and workshops focused on enabling participants to collaborate on Open Source projects, so that all interested people (regardless of their level of knowledge / experience) can participate.
 
@@ -35,7 +35,7 @@ The event will feature lectures and workshops focused on enabling participants t
 ## What's Hacktoberfest?
 [Hacktoberfest — brought to you by DigitalOcean](https://hacktoberfest.digitalocean.com/) in partnership with [DEV](https://dev.to/) — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors toward issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like and others they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating.
 
-This year, [WebMob Technologies](https://webmobtech.com/) will hold the second official Hacktoberfest event in Ahmedabad. **The event takes place on October 16**.
+This year, [WebMob Technologies](https://webmobtech.com/) will hold the second official Hacktoberfest event in Ahmedabad. **The event takes place on October 10**.
 
 Can't make it to this event? Hacktoberfest is virtual and open to participants from around the globe. Sign up to participate today at [https://hacktoberfest.digitalocean.com.](https://hacktoberfest.digitalocean.com/)
 
