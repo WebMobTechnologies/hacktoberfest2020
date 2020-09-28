@@ -11,11 +11,9 @@ import {
 
 const Contributors = () => (
   <div>
-    {/* {console.log("HI",Contributor.length)} */}
     {Contributor.length > 0 ? (
       <>
         <Line />
-
         <h2 className="title is-2 is-spaced">Contributors</h2>
       </>
     ) : (

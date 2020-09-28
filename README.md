@@ -1,4 +1,4 @@
-# Hacktoberfest Open Hack Day - WebMob Technologies!
+# Hacktoberfest Online at WebMob Tech in Ahmedabad  
 [Register](http://bit.ly/2MsOmvL)
 
 ## Event details
@@ -14,28 +14,26 @@ The event will feature lectures and workshops focused on enabling participants t
 
 ## Agenda
 
-| Timing              | Description                                    |
-| :------------------ | :--------------------------------------------- |
-| 8:30 AM - 9:15 AM   | Welcome note 📝                                |
-| 9:15 AM - 9:30 AM   | Introduction to Hacktoberfest and Git 🔥       |
-| 9:30 AM - 10:15 AM  | Your 1st PR at Hacktoberfest 👆                |
-| 10:15 AM - 10:30 AM | Give us a breakkk! 😬                          |
-| 10:30 AM - 11:00 AM | Did you just hack me? 😱                       |
-| 11:00 AM - 11:30 AM | Live quiz ❓                                    |
-| 11:30 AM - 12:00 PM | Can't we automate this? - lazy einstein 😎     |
-| 12:00 PM - 1:00 PM  | Lunch is early, huh? 🍜                        |
-| 1:00 PM - 1:30 PM   | Cloud computing? Computers can fly now? ☁️     |
-| 1:30 PM - 2:00 PM   | Guess who? 🤔💭                                |
-| 2:00 PM - 2:30 PM   | Show me what you got 🙈                        |
-| 2:30 PM - 3:00 PM   | Tea time ( team pairing & arrangement ) ☕        |
-| 3:00 PM - 4:30 PM   | It's a show time 🕒                            |
-| 4:30 PM - 6:00 PM   | I said play! 🎮                                |
-| 6:00 PM - 6:15 PM   | Award - Swag distribution and Photo session 📷 |
+| Timing              | Description                                             |
+| :------------------ | :-------------------------------------------------------|
+| 10:00 AM - 10:15 AM | Welcome note 📝                                         |
+| 10:15 AM - 10:30 AM | Intro to Hacktoberfest and GIT 🔥                       |
+| 10:30 AM - 11:30 AM | 3D basic, Model, Texture, Lighting, Scene - Workshop 🛠 |
+| 11:30 AM - 01:30 PM | Hand on 1st PR 👆                                       |
+| 01:30 PM - 02:30 PM | Lunch is early, huh? 🍜                                 |
+| 02:30 PM - 03:00 PM | Talk #1                                                 |  
+| 03:00 PM - 04:00 PM | Live Quiz ❓                                            |
+| 12:00 PM - 01:00 PM | Lunch is early, huh? 🍜                                 |
+| 04:00 PM - 04:30 PM | Talk #2                                                 |
+| 04:30 PM - 05:00 PM | It's a show time 🕒                                     |
+| 05:00 PM - 05:30 PM | Tea time ( team pairing & arrangement ) ☕               |
+| 05:30 PM - 07:00 PM | I said play! 🎮                                         |
+| 07:00 PM - 07:15 PM | Photo session 📷                                        |
 
 ## What's Hacktoberfest?
 [Hacktoberfest — brought to you by DigitalOcean](https://hacktoberfest.digitalocean.com/) in partnership with [DEV](https://dev.to/) — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors toward issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like and others they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating.
 
-This year, [WebMob Technologies](https://webmobtech.com/) will hold the second official Hacktoberfest event in Ahmedabad. **The event takes place on October 10**.
+This year, [WebMob Technologies](https://webmobtech.com/) will hold the third official Hacktoberfest event in Ahmedabad. **The event takes place on October 10**.
 
 Can't make it to this event? Hacktoberfest is virtual and open to participants from around the globe. Sign up to participate today at [https://hacktoberfest.digitalocean.com.](https://hacktoberfest.digitalocean.com/)
 

@@ -31,30 +31,32 @@ const redirectMap = () => {
 const IndexPage = props => (
   <Layout>
     <SEO title="Hacktoberfest Open Hack Day - WebMob Technologies" />
+    {console.log("Hiiiiii", window.innerWidth)}
     <Container>
       <Row
         style={{
-          display: "",
           justifyContent: "center",
           alignItems: "center",
-          height: "60vh",
+          height: "100vh",
         }}
       >
         <Col sm={6} className="text-center full-width">
           <div
             style={{
-              display: "",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            <h1 className="title register">
-              Hacktoberfest Open Hack Day{" "}
-              <span style={{ color: "#9c4668", display: "block" }}>
-                WebMob Technologies!
-              </span>
-            </h1>
+            <h1 className="title register">Hacktoberfest</h1>
+            <h2 style={{ color: "#9c4668", display: "block" }}>
+              Online at
+            </h2>{" "}
+            <h2
+              style={{ color: "#93c2db", display: "block", fontSize: "40px" }}
+            >
+              WebMob Tech in Ahmedabad
+            </h2>
             <a
               href="#"
               // target="_blank"
@@ -66,7 +68,6 @@ const IndexPage = props => (
         </Col>
         <Col sm={6}></Col>
       </Row>
-
       <Row>
         <Col sm={12} className="mt-5 event-detail" id="detail">
           <EventDetail />
@@ -138,7 +139,7 @@ const IndexPage = props => (
               <div className="social-link">
                 <a
                   className="grow-shadow social left-gradiant"
-                  style={{ borderRadius: "0px 0px 0px 50px" }}
+                  style={{ borderRadius: "0px 50px 0px 50px" }}
                   href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.webmobtech.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -160,7 +161,7 @@ const IndexPage = props => (
 
                 <a
                   className="grow-shadow social right-gradiant"
-                  style={{ borderRadius: "0px 50px 0px 0px " }}
+                  style={{ borderRadius: "0px 50px 0px 50px " }}
                   href="https://ctt.ac/4xLO9"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -183,9 +184,9 @@ const IndexPage = props => (
               </div>
             </Col>
             <Col sm={6}>
-              {/* <div style={{ paddingTop: "5rem" }}>
+              <div style={{ paddingTop: "5rem" }}>
                 <Image />
-              </div> */}
+              </div>
             </Col>
           </Row>
         </Container>
@@ -258,15 +259,15 @@ export const query = graphql`
     allFile(
       filter: {
         extension: { regex: "/(jpg)|(png)|(webp)|(jpeg)/" }
-        relativeDirectory: { eq: "moments" }
+        relativeDirectory: { eq: "lastyear" }
       }
     ) {
       edges {
         node {
           relativePath
           childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
+            fixed(width: 1024, quality: 100) {
+              ...GatsbyImageSharpFixed_withWebp
             }
           }
         }

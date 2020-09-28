@@ -17,7 +17,7 @@ export default class HappyMoment extends PureComponent {
     const settings = {
       className: 'center',
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       speed: 500,
       autoplay: true,
@@ -29,7 +29,7 @@ export default class HappyMoment extends PureComponent {
         {
           breakpoint: 1600,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: false,
             infinite: true,
@@ -39,8 +39,8 @@ export default class HappyMoment extends PureComponent {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             centerMode: false,
             infinite: true,
             dots: false,
@@ -69,8 +69,8 @@ export default class HappyMoment extends PureComponent {
     return (
       <Slider {...settings} className="">
         {data.map((item, index) => (
-          <div className="img-wrapper">
-            <Img className="img-fluid" fluid={item.node.childImageSharp.fluid} />
+          <div className="img-wrapper" >
+            <Img className="img-fluid" fixed={item.node.childImageSharp.fixed} />
           </div>
         ))}
       </Slider>
