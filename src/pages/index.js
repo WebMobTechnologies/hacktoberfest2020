@@ -38,8 +38,9 @@ const IndexPage = props => (
           alignItems: "center",
           height: "100vh",
         }}
+        id="register"
       >
-        <Col sm={6} className="text-center full-width">
+        <Col span={6} className="text-center full-width">
           <div
             style={{
               flexDirection: "column",
@@ -65,7 +66,7 @@ const IndexPage = props => (
             </a>
           </div>
         </Col>
-        <Col sm={6}></Col>
+        <Col span={6}></Col>
       </Row>
       <Row>
         <Col sm={12} className="mt-5 event-detail" id="detail">
@@ -117,10 +118,21 @@ const IndexPage = props => (
     <div className="mt-5 riot">
       <div style={{ paddingTop: "10rem" }}>
         <Container>
+          {/* <Row style={{ alignItems: "center" }}>
+            <Col xs={12}>
+              <Line />
+              <h2 className="title is-2 is-spaced"> Have a Riot</h2>
+              <HappyMoment data={props.data.allFile.edges} />
+            </Col>
+          </Row> */}
           <Row style={{ alignItems: "center" }}>
             <Col xs={12}>
               <Line />
               <h2 className="title is-2 is-spaced"> Have a Riot</h2>
+            </Col>
+          </Row>
+          <Row className="happymoment" id="happymoment">
+            <Col xs={12} md={10}>
               <HappyMoment data={props.data.allFile.edges} />
             </Col>
           </Row>
@@ -265,8 +277,8 @@ export const query = graphql`
         node {
           relativePath
           childImageSharp {
-            fixed(width: 1024, quality: 100) {
-              ...GatsbyImageSharpFixed_withWebp
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid
             }
           }
         }

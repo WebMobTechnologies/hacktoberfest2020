@@ -70,7 +70,7 @@ export default class HappyMoment extends PureComponent {
       <Slider {...settings} className="">
         {data.map((item, index) => (
           <div className="img-wrapper" >
-            <Img className="img-fluid" fixed={item.node.childImageSharp.fixed} />
+            <Img className="img-fluid" fluid={item.node.childImageSharp.fluid} />
           </div>
         ))}
       </Slider>
