@@ -150,7 +150,7 @@ const IndexPage = props => (
 
               <div className="social-link">
                 <a
-                  className="grow-shadow social left-gradiant"
+                  className="grow-shadow social "
                   style={{ borderRadius: "0px 50px 0px 50px" }}
                   href="https://www.facebook.com/sharer/sharer.php?u=https://hacktoberfest.webmobtech.com"
                   target="_blank"
@@ -172,7 +172,7 @@ const IndexPage = props => (
                 </a>
 
                 <a
-                  className="grow-shadow social right-gradiant"
+                  className="grow-shadow social"
                   style={{ borderRadius: "0px 50px 0px 50px " }}
                   href="https://ctt.ac/4xLO9"
                   target="_blank"

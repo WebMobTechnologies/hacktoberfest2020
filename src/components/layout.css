@@ -83,6 +83,7 @@ strong {
   vertical-align: top;
   padding: 30px;
   text-decoration: none;
+  background-image: linear-gradient(to right,#9c4668 , #ff8ae2);
 }
 .left-gradiant{
   background-image: linear-gradient(to right,#9c4668 , #d66cbc);
