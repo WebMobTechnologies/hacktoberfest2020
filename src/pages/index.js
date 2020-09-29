@@ -31,7 +31,6 @@ const redirectMap = () => {
 const IndexPage = props => (
   <Layout>
     <SEO title="Hacktoberfest Open Hack Day - WebMob Technologies" />
-    {console.log("Hiiiiii", window.innerWidth)}
     <Container>
       <Row
         style={{
