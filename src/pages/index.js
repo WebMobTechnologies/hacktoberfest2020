@@ -40,7 +40,7 @@ const IndexPage = props => (
         }}
         id="register"
       >
-        <Col span={6} className="text-center full-width">
+        <Col span={6} className="full-width">
           <div
             style={{
               flexDirection: "column",
@@ -53,7 +53,7 @@ const IndexPage = props => (
               Online at
             </h2>{" "}
             <h2
-              style={{ color: "#93c2db", display: "block", fontSize: "40px" }}
+              style={{ color: "#93c2db", display: "block", fontSize: "30px" }}
             >
               WebMob Tech in Ahmedabad
             </h2>
