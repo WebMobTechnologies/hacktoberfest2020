@@ -161,7 +161,7 @@ strong {
   /* background-image: url(/images/bg2.png), url(/images/bg1.png); */
   background-position: bottom left, top right;
   background-repeat: no-repeat;
-  min-height: 1040px;
+  /* min-height: 1040px; */
 }
 
 body,
@@ -1091,6 +1091,7 @@ header .navbar-end {
 }
 .footer-end .socials {
   margin-top: 30px;
+  margin-left: 30px;
 }
 .footer-end .socials li {
   display: inline-block;

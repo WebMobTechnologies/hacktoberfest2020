@@ -92,7 +92,7 @@ const IndexPage = props => (
     </Container>
 
     <div className="mt-5" style={{ overflow: "hidden" }}>
-      <div style={{ paddingTop: "2rem" }}>
+      <div style={{ paddingTop: "3rem" }}>
         <Row style={{ alignItems: "center", backgroundColor: "#072540" }}>
           <Col sm={12} md={12} lg={6}>
             <EventMap />
@@ -141,7 +141,7 @@ const IndexPage = props => (
       </div>
     </div>
     <div className="mt-5 spread">
-      <div style={{ paddingTop: "2rem" }}>
+      <div style={{ paddingTop: "3rem" }}>
         <Container>
           <Row style={{ alignItems: "center" }}>
             <Col sm={6}>
@@ -196,7 +196,7 @@ const IndexPage = props => (
               </div>
             </Col>
             <Col sm={6}>
-              <div style={{ paddingTop: "5rem" }}>
+              <div style={{ paddingTop: "rem" }}>
                 <Image />
               </div>
             </Col>
@@ -205,7 +205,7 @@ const IndexPage = props => (
       </div>
     </div>
     {/* footer */}
-    <div className="footer-end">
+    <div className="mt-5 footer-end">
       <div className="footer-logos">
         <a
           href="https://www.digitalocean.com"
@@ -214,14 +214,14 @@ const IndexPage = props => (
         >
           <img src={Dologo} alt="DigitalOcean Logo" />
         </a>
-        <p> + </p>
+        {/* <p> + </p>
         <a
           href="https://www.intel.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={Intelwhite} alt="Intel white" />
-        </a>
+        </a> */}
         <p> + </p>
         <a href="https://www.dev.to" target="_blank" rel="noopener noreferrer">
           <img className="dev-logo" src={Devlogo} alt="Dev Logo" />
