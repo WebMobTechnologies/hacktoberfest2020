@@ -16,6 +16,7 @@ export default class HappyMoment extends PureComponent {
   render() {
     const settings = {
       className: 'center',
+      centerMode: true,
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -31,7 +32,7 @@ export default class HappyMoment extends PureComponent {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerMode: false,
+            centerMode: true,
             infinite: true,
             dots: false,
           },
@@ -41,7 +42,7 @@ export default class HappyMoment extends PureComponent {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerMode: false,
+            centerMode: true,
             infinite: true,
             dots: false,
           },
@@ -51,7 +52,7 @@ export default class HappyMoment extends PureComponent {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerMode: false,
+            centerMode: true,
             initialSlide: 1,
           },
         },
@@ -59,7 +60,7 @@ export default class HappyMoment extends PureComponent {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            centerMode: false,
+            centerMode: true,
             slidesToScroll: 1,
           },
         },

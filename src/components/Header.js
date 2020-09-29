@@ -5,7 +5,7 @@ import Logo from '../../static/images/Logo Sponsors Light.svg'
 const Header = ({ siteTitle }) => 
 <header>
   <nav class="navbar" id="navbar">
-  <img id="header-logo" src={Logo} alt="Hacktoberfest Logo" width="475" />
+  <img id="header-logo" src={Logo} alt="Hacktoberfest Logo" width="600" />
   {/* <ul class="navbar-end">
     <li><a class="active navLink" href="/">home</a></li>
     <li><a class="navLink" href="#detail">details</a></li>

@@ -10,6 +10,7 @@ import HacktoberFest from "../components/HacktoberFest"
 import RulePrize from "../components/RulePrize"
 import EventDetail from "../components/EventDetail"
 import Devlogo from "../../static/images/dev-logo.svg"
+import Intelwhite from "../../static/images/intel.svg"
 import Dologo from "../../static/images/do-logo.svg"
 import EventMap from "../components/EventMap"
 import WMTLogo from "../components/WMTLogo"
@@ -58,8 +59,8 @@ const IndexPage = props => (
               WebMob Tech in Ahmedabad
             </h2>
             <a
-              href="#"
-              // target="_blank"
+              href="https://organize.mlh.io/participants/events/4837-hacktoberfest-online-at-webmob-tech-in-ahmedabad"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <button className="register-btn button">Register</button>
@@ -91,7 +92,7 @@ const IndexPage = props => (
     </Container>
 
     <div className="mt-5" style={{ overflow: "hidden" }}>
-      <div style={{ paddingTop: "10rem" }}>
+      <div style={{ paddingTop: "2rem" }}>
         <Row style={{ alignItems: "center", backgroundColor: "#072540" }}>
           <Col sm={12} md={12} lg={6}>
             <EventMap />
@@ -116,7 +117,7 @@ const IndexPage = props => (
       </div>
     </div>
     <div className="mt-5 riot">
-      <div style={{ paddingTop: "10rem" }}>
+      <div>
         <Container>
           {/* <Row style={{ alignItems: "center" }}>
             <Col xs={12}>
@@ -132,7 +133,7 @@ const IndexPage = props => (
             </Col>
           </Row>
           <Row className="happymoment" id="happymoment">
-            <Col xs={12} md={10}>
+            <Col xs={12} md={12}>
               <HappyMoment data={props.data.allFile.edges} />
             </Col>
           </Row>
@@ -140,7 +141,7 @@ const IndexPage = props => (
       </div>
     </div>
     <div className="mt-5 spread">
-      <div style={{ paddingTop: "10rem" }}>
+      <div style={{ paddingTop: "2rem" }}>
         <Container>
           <Row style={{ alignItems: "center" }}>
             <Col sm={6}>
@@ -214,6 +215,14 @@ const IndexPage = props => (
           <img src={Dologo} alt="DigitalOcean Logo" />
         </a>
         <p> + </p>
+        <a
+          href="https://www.intel.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Intelwhite} alt="Intel white" />
+        </a>
+        <p> + </p>
         <a href="https://www.dev.to" target="_blank" rel="noopener noreferrer">
           <img className="dev-logo" src={Devlogo} alt="Dev Logo" />
         </a>
@@ -277,7 +286,7 @@ export const query = graphql`
         node {
           relativePath
           childImageSharp {
-            fluid(quality: 100) {
+            fluid(maxWidth: 800, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }

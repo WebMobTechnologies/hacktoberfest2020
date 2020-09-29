@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
 
 html {
-  background-color: #072540;
+  background-color: #082240;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -1103,7 +1103,7 @@ header .navbar-end {
 }
 
 .footer-logos {
-  padding: 10px 5px;
+  padding:  10px 5px 10px 5px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -1160,7 +1160,7 @@ table.event-schedule td {
 }
 .box-projects span.details-number {
   color: white;
-  background: #072540;
+  background: #082240;
   padding: 2px;
   margin-right: 5px;
 }
